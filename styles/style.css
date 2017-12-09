@@ -1,13 +1,14 @@
 body {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(../images/image.jpg);
+    max-width: 100%;
+	background: url(../images/image.jpg);
+	 
     padding-right: 10%;
     padding-left: 10%;
     margin: 0px;
     text-align: center;
 }
 section {
-    width: 80%;
+	width: 100%;
 }
 .button {
     margin: auto;
@@ -15,34 +16,28 @@ section {
     
 }
 h1 {
-	font-size:100px; 
-	color: rgb(255, 230, 8);
+	font-size:70px; 
+	color: rgb(252, 252, 252);
 }
 #h2{
 	font-size:100px; 
-	color: rgb(255, 251, 8);
+	color: rgb(49, 28, 28);
 	margin: 0px;
 	text-align: center;
 }
 #data-list {
 	font-size: 36px;
 	list-style-type: none;
-	color: rgb(255, 251, 5);
+	color: rgb(7, 7, 7);
+	background: rgb(126, 118, 118);
+	opacity: 0.8;
+	border-radius:10px;
 }
-#list0 {
-	padding: 10px 0px 10px 0px;
-}
-#list8 {
-    padding: 20px 0px 30px 0px;
-}
-#list16 {
-    padding: 10px 0px 10px 0px;
-}
-#list24 {
-    padding: 10px 0px 10px 0px;
-}
-#list32 {
-    padding: 10px 0px 10px 0px;
+#list {
+	/* border: 1px solid rgb(0, 0, 0); */
+	padding-bottom: 12px;
+	padding-top: 12px;
+
 }
 @media screen and (max-width: 800px) {
 	body {
@@ -63,16 +58,16 @@ h1 {
 	}
 	h1 {
 		font-size:40px;
-		color: rgb(255, 230, 8);
+		color: rgb(237, 241, 234);
 	}
 	#h2{
 		font-size:50px; 
-		color: rgb(255, 251, 8);
+		color: rgb(0, 0, 0);
 		margin: 0px;
 	}
 	#data-list {
 		font-size:25px;
 		list-style-type: none;
-		color: rgb(255, 251, 5);
+		color: rgb(46, 46, 41);
 	}
 }
