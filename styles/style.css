@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(../images/image.jpg);
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0px;
+    text-align: center;
+}
+section {
+    width: 80%;
+}
+.button {
+    margin: auto;
+    text-align: center;
+    
+}
+h1 {
+	font-size:100px; 
+	color: rgb(255, 230, 8);
+}
+#h2{
+	font-size:100px; 
+	color: rgb(255, 251, 8);
+	margin: 0px;
+	text-align: center;
+}
+#data-list {
+	font-size: 36px;
+	list-style-type: none;
+	color: rgb(255, 251, 5);
+}
+#list0 {
+	padding: 10px 0px 10px 0px;
+}
+#list8 {
+    padding: 20px 0px 30px 0px;
+}
+#list16 {
+    padding: 10px 0px 10px 0px;
+}
+#list24 {
+    padding: 10px 0px 10px 0px;
+}
+#list32 {
+    padding: 10px 0px 10px 0px;
+}
+@media screen and (max-width: 800px) {
+	body {
+		width: 100%;
+		padding-right: 10%;
+		padding-left: 10%;
+		margin: 0px;
+		text-align: center;
+		overflow: hidden;
+	}
+	section {
+		width: 80%;
+	}
+	.button {
+		margin: auto;
+		text-align: center;
+		width: 60%
+	}
+	h1 {
+		font-size:40px;
+		color: rgb(255, 230, 8);
+	}
+	#h2{
+		font-size:50px; 
+		color: rgb(255, 251, 8);
+		margin: 0px;
+	}
+	#data-list {
+		font-size:25px;
+		list-style-type: none;
+		color: rgb(255, 251, 5);
+	}
+}
