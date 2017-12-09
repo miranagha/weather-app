@@ -34,7 +34,7 @@ function getData(query) {
           list.innerHTML = `${dayName}s weather: ${JSON.stringify(object.list[i].weather[0].main)}    ${JSON.stringify(object.list[i].main.temp_max.toFixed())}°c`
           list.innerHTML = list.innerHTML.replace(/[""]/g, '')
           ul.appendChild(list)
-      }
+      }5
   }).then(removeBtn)
 }
 // ${JSON.stringify(object.list[i].weather[0].icon)}
